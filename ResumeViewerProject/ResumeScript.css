@@ -1,0 +1,143 @@
+body {
+    align-items: center;
+    text-align: center;
+}
+.searchcriteria {
+    margin-top: 10px;
+    text-align: center;
+}
+.searchcriteria input {
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 250px;
+}
+.resume{
+    border-color: black;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px 3px grey;
+    margin: 50px;
+}
+.resumesheader{
+    background-color: rgb(192, 249, 230);
+    justify-content: center;
+}
+.resumesheader .ApplicantName{
+    font-size: 24px;
+    padding-top: 20px;
+}
+.resumesheader .AppliedForPosition {
+    margin-top: 30px;
+    font-size: 14px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.resumesheader .ApplicantName{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.container {
+    position: relative;
+    
+}
+.container img {
+    background: url('default profilepic.jpeg');
+    background-position: -25px -15px;
+    width: 75px;
+    height: 75px;
+    background-size: auto;
+    top: 25px;
+    left: 40px;
+   display: flex;
+    position:absolute;
+}
+.profilebody{
+    display:flex;
+}
+.personalinfo{
+    text-align: right;
+    margin-right: 10px;
+}
+.BulkSection{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+.BulkSection span{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.WorkExperienceSection{
+    font-weight: bold;
+    font-size: 18px;
+}
+.expsection{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.projectsec{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.Educationsec{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.Internsec{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.achsec{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.ProjectsSection{
+    font-weight: bold;
+    font-size: 18px;
+}
+.EducationSection{
+    font-weight: bold;
+    font-size: 18px;
+}
+.InternshipSection{
+    font-weight: bold;
+    font-size: 18px;
+}
+.AchievementsSection{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.PersonalInformationBox{
+    background-color: rgb(242, 218, 212);
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: fit-content;
+}
+.PersonalInformationHeader{
+    background-color: rgb(195, 194, 194);
+    width: 130px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.TechnicalSkillsHeader{
+    background-color: rgb(195, 194, 194);
+    width: 130px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.HobbiesHeader{
+    background-color: rgb(195, 194, 194);
+    width: 130px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+}
